@@ -61,9 +61,7 @@ footer.credit{
 .right{
    display:flex;
    flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   flex-basis: auto;
+   justify-content: space-around;
 }
 
 .not-real{
@@ -73,7 +71,12 @@ footer.credit{
    border:0;
 }
 
-.personal-info{
+.survey{
    background-color: white;
    width:100%
+}
+
+legend{
+   font-weight: bold;
+   font-size: 1.5rem;
 }
