@@ -1,0 +1,79 @@
+@font-face {
+   font-family: Norse-font;
+   src: url(./assets/Norse-Bold.otf);
+ }
+
+ *{
+   margin:0;
+   padding:0;
+ }
+
+ body{
+   background-color: hsl(0, 0%, 95%);
+   display:flex;
+ }
+
+ .left-panel{
+   display:flex;
+   flex-direction: column;
+   position:relative;
+   width: 30vw;
+ }
+
+.background-pic{
+   height: 100vh;
+}
+
+.logo-container{
+   background-color: rgba(0, 0, 0, 0.5);
+   position:absolute;
+   top:30%;
+   width:100%;
+   box-sizing: border-box;
+   padding:10px;  
+
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   gap:5px;
+}
+
+.logo-pic{
+   width:auto;
+   height:5rem;
+}
+
+.logo-text{
+   font-family: Norse-font,system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   color:white;
+   font-size: 5rem; 
+}
+
+footer.credit{
+   position: absolute;
+   bottom: 0;
+   width:100%;
+   text-align: center;
+   color: white;
+   
+}
+
+.right{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-basis: auto;
+}
+
+.not-real{
+   font-weight: bold;
+   font-size: 1.5rem;
+   margin:0;
+   border:0;
+}
+
+.personal-info{
+   background-color: white;
+   width:100%
+}
