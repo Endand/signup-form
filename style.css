@@ -64,19 +64,36 @@ footer.credit{
    justify-content: space-around;
 }
 
+.explain{
+   font-weight: bold;
+   font-size: 1.5rem;
+   margin:2rem;
+}
+
 .not-real{
-   font-weight: bold;
-   font-size: 1.5rem;
-   margin:0;
-   border:0;
+   margin-right: 10rem;
 }
 
-.survey{
+.form-area{
    background-color: white;
-   width:100%
+   width:100%;
+   display:flex;
+   flex-direction: column;
+   flex-grow: 1;
 }
 
-legend{
+.legend-go{
    font-weight: bold;
    font-size: 1.5rem;
+}
+
+.form-container{
+   display:flex;
+}
+
+
+
+.login-choice{
+   display:flex;
+   flex-direction: column;
 }
