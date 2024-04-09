@@ -79,7 +79,7 @@ footer.credit{
    width:100%;
    display:flex;
    flex-direction: column;
-   flex-grow: 1;
+   flex-grow: 0.7;
 }
 
 .legend-go{
@@ -91,9 +91,20 @@ footer.credit{
    display:flex;
 }
 
+.create-acc-button, .already{
+   margin-left:2rem;
+}
 
-
-.login-choice{
-   display:flex;
-   flex-direction: column;
+.create-acc-button{
+   font-weight: bold;
+   color: white;
+   background-color: #596D48;
+   padding:0.8rem;
+   border:none;
+   width:13em;
+   border-radius: 0.4rem;
+   box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+}
+.create-acc-button:hover{
+   cursor:pointer;
 }
